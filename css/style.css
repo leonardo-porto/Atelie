@@ -1,0 +1,109 @@
+h2 {
+
+    font-size: 30px;
+    position: absolute;
+    top: 260px;
+    left: 580px;
+}
+
+#social {
+
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+
+
+
+}
+
+h1 {
+
+    height: 70px;
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+    background-color: rgb(255, 203, 219);
+    margin: auto;
+    padding: 20px;
+
+
+
+}
+
+nav {
+
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu {
+
+    position: absolute;
+    font-family: cursive;
+    font-size: 20px;
+    list-style: none;
+    border: 1px solid gray;
+    float: left;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #c0c0c0;
+}
+
+
+
+.menu li a {
+
+    color: rgb(26, 21, 21);
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+
+}
+
+.menu li a:hover {
+
+    background: #333;
+    color: #fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+     text-shadow:0px 0px 5px #fff;
+
+
+}
+
+
+
+
+
+
+.menu li ul {
+    position:absolute;
+    top: 25px;
+    left: 0;
+    background-color:#fff;
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul {
+    display: block;
+}
+
+.menu li ul li {
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 150px;
+}
+
+#logo {
+
+    position: absolute;
+    top: 121px;
+    left: 580px;
+}
